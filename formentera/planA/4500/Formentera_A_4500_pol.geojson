@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Formentera_A_4500_pol",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Parking", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 1.4524572, 38.7232395 ], [ 1.4521353, 38.7230386 ], [ 1.4522533, 38.7230135 ], [ 1.4522319, 38.7227457 ], [ 1.4521246, 38.7227457 ], [ 1.452189, 38.722369 ], [ 1.4535515, 38.7215319 ], [ 1.4536159, 38.7216156 ], [ 1.4532619, 38.7217998 ], [ 1.4533155, 38.7220593 ], [ 1.4527898, 38.7224025 ], [ 1.4529615, 38.7229717 ], [ 1.4524572, 38.7232395 ] ] ] } },
+{ "type": "Feature", "properties": { "Name": "Parking", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 1.4540864, 38.7220342 ], [ 1.4537752, 38.7214566 ], [ 1.4542473, 38.7213059 ], [ 1.4562214, 38.7210799 ], [ 1.4562214, 38.7212055 ], [ 1.4557172, 38.7212892 ], [ 1.4551593, 38.7214147 ], [ 1.4549769, 38.7218165 ], [ 1.4540864, 38.7220342 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Formentera_C_2000",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Recorrido \/ Course - 2k", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": 1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "LineString", "coordinates": [ [ 1.513812, 38.6630521 ], [ 1.5124924, 38.6624573 ], [ 1.5055536, 38.6668627 ], [ 1.4985434, 38.6707926 ], [ 1.4969126, 38.6717978 ], [ 1.4963119, 38.6733054 ] ] } }
+]
+}

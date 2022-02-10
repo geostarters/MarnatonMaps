@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>MARNATON FORMENTERA PLAN C - 4,5k</name>
+    <description><![CDATA[4,5km - Insotel --> Riu La Mola]]></description>
+    <Style id="icon-1563-FFD600-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1563-FFD600-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1563-FFD600-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1563-FFD600-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1563-FFD600-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1578-FF5252-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1578-FF5252-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1578-FF5252-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1578-FF5252-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1578-FF5252-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1594-3949AB-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1594-3949AB-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1594-3949AB-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1594-3949AB-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1594-3949AB-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1608-3949AB-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1608-3949AB-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1608-3949AB-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1608-3949AB-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1608-3949AB-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1661-3949AB-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1661-3949AB-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1661-3949AB-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1661-3949AB-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1661-3949AB-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1684-3949AB-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1684-3949AB-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1684-3949AB-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1684-3949AB-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1684-3949AB-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1685-3949AB-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1685-3949AB-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1685-3949AB-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1685-3949AB-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1685-3949AB-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1701-3949AB-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1701-3949AB-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1701-3949AB-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1701-3949AB-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1701-3949AB-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F9A825-6619-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>6.619</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F9A825-6619-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>9.9285</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F9A825-6619">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F9A825-6619-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F9A825-6619-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Evento</name>
+      <Placemark>
+        <name>Bolsa Nadador / Swimmers Bag</name>
+        <styleUrl>#icon-1684-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.4147392,38.7325759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Village - Expo</name>
+        <styleUrl>#icon-1685-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.4146359,38.7325582,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Briefing</name>
+        <styleUrl>#icon-1594-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.4146708,38.7325822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>INFO - Incidencias / Incidents</name>
+        <styleUrl>#icon-1608-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.4147191,38.7325487,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Plan C - MIGJORN</name>
+      <Placemark>
+        <name>Start - 4,75k</name>
+        <styleUrl>#icon-1701-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.4673477,38.6841164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Recorrido / Course 4,75k</name>
+        <description><![CDATA[Insotel --> Riu La Mola]]></description>
+        <styleUrl>#line-F9A825-6619</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            1.4672839,38.6840501,0
+            1.4673589,38.6832462,0
+            1.4721655,38.6819397,0
+            1.4755987,38.6808676,0
+            1.481521,38.6784555,0
+            1.4917349,38.674301,0
+            1.4988588,38.6704814,0
+            1.5055536,38.6668627,0
+            1.5096735,38.664249,0
+            1.5124951,38.6623808,0
+            1.5139287,38.6630526,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Avituallamiento / Refreshment</name>
+        <styleUrl>#icon-1578-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.4909947,38.6741545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya / Buoy</name>
+        <styleUrl>#icon-1563-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.4669172,38.6826172,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya / Buoy</name>
+        <styleUrl>#icon-1563-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.4712946,38.6812102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya / Buoy</name>
+        <styleUrl>#icon-1563-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.4759294,38.6796691,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya / Buoy</name>
+        <styleUrl>#icon-1563-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.4798776,38.678128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya / Buoy</name>
+        <styleUrl>#icon-1563-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.4839975,38.6766539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya / Buoy</name>
+        <styleUrl>#icon-1563-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.4875166,38.6751127,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya / Buoy</name>
+        <styleUrl>#icon-1563-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.4931814,38.6727674,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya / Buoy</name>
+        <styleUrl>#icon-1563-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.4967005,38.670824,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya / Buoy</name>
+        <styleUrl>#icon-1563-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.5001337,38.6688136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya / Buoy</name>
+        <styleUrl>#icon-1563-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.5038244,38.6668032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya / Buoy</name>
+        <styleUrl>#icon-1563-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.5076868,38.6643236,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya / Buoy</name>
+        <styleUrl>#icon-1563-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.512504,38.6626649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FINISH LINE</name>
+        <styleUrl>#icon-1661-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.5142311,38.6630455,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
