@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "Formentera_A_2000",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "Name": "Recorrido 2k", "description": "Playa de Ses Canyes --> Es Pujols", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": 1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "LineString", "coordinates": [ [ 1.4442367, 38.736595 ], [ 1.4454117, 38.7359966 ], [ 1.4465356, 38.7342244 ], [ 1.451865, 38.7308788 ], [ 1.4522834, 38.7309039 ], [ 1.4527876, 38.7310881 ], [ 1.455384, 38.7299749 ], [ 1.4558776, 38.7295983 ], [ 1.4560921, 38.7290542 ], [ 1.4559687, 38.7284349 ], [ 1.4541717, 38.7285521 ] ] } }
-]
-}
