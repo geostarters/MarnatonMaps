@@ -1,0 +1,150 @@
+[
+  {
+    "codi":1,
+    "descripcio":"sol"
+  },
+  {
+    "codi":2,
+    "descripcio":"sol i núvols alts"
+  },
+  {
+    "codi":3,
+    "descripcio":"entre poc i mig ennuvolat"
+  },
+  {
+    "codi":4,
+    "descripcio":"cobert"
+  },
+  {
+    "codi":5,
+    "descripcio":"plugim"
+  },
+  {
+    "codi":6,
+    "descripcio":"pluja"
+  },
+  {
+    "codi":7,
+    "descripcio":"xàfec"
+  },
+  {
+    "codi":8,
+    "descripcio":"tempesta"
+  },
+  {
+    "codi":9,
+    "descripcio":"tempesta calamarsa"
+  },
+  {
+    "codi":10,
+    "descripcio":"neu"
+  },
+  {
+    "codi":11,
+    "descripcio":"boira"
+  },
+  {
+    "codi":12,
+    "descripcio":"boirina"
+  },
+  {
+    "codi":13,
+    "descripcio":"xàfec neu"
+  },
+  {
+    "codi":20,
+    "descripcio":"entre mig i molt ennuvolat"
+  },
+  {
+    "codi":21,
+    "descripcio":"cobert"
+  },
+  {
+    "codi":22,
+    "descripcio":"calitja"
+  },
+  {
+    "codi":23,
+    "descripcio":"ruixat"
+  },
+  {
+    "codi":24,
+    "descripcio":"xàfec amb tempesta"
+  },
+  {
+    "codi":25,
+    "descripcio":"xàfec"
+  },
+  {
+    "codi":26,
+    "descripcio":"ruixat"
+  },
+  {
+    "codi":27,
+    "descripcio":"neu feble"
+  },
+  {
+    "codi":28,
+    "descripcio":"temperatura neu"
+  },
+  {
+    "codi":29,
+    "descripcio":"xàfec"
+  },
+  {
+    "codi":30,
+    "descripcio":"aiguaneu"
+  },
+  {
+    "codi":31,
+    "descripcio":"ruixat"
+  },
+  {
+    "codi":32,
+    "descripcio":"plugim"
+  },
+  {
+    "codi":50,
+    "descripcio":"plana"
+  },
+  {
+    "codi":51,
+    "descripcio":"arrissada"
+  },
+  {
+    "codi":52,
+    "descripcio":"marejol"
+  },
+  {
+    "codi":53,
+    "descripcio":"maror"
+  },
+  {
+    "codi":54,
+    "descripcio":"forta maror"
+  },
+  {
+    "codi":55,
+    "descripcio":"maregassa"
+  },
+  {
+    "codi":56,
+    "descripcio":"mar brava"
+  },
+  {
+    "codi":57,
+    "descripcio":"mar desfeta"
+  },
+  {
+    "codi":58,
+    "descripcio":"mar molt alta"
+  },
+  {
+    "codi":59,
+    "descripcio":"mar enorme"
+  },
+  {
+    "codi":60,
+    "descripcio":"mar de fons"
+  }
+]
