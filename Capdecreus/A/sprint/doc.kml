@@ -1676,4 +1676,10 @@
             3.2910215,42.2828905,0
           </coordinates>
         </Point>
-      </Plac
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Capa sin nombre</name>
+    </Folder>
+  </Document>
+</kml>
