@@ -4098,7 +4098,7 @@
         },
         "source": "openmaptiles",
         "source-layer": "place",
-        "minzoom": 15,
+        "minzoom": 16,
         "filter": [
           "!in",
           "class",
