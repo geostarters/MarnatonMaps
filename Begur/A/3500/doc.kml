@@ -842,14 +842,17 @@
             <LinearRing>
               <tessellate>1</tessellate>
               <coordinates>
-                3.2104693,41.9601491,0
-                3.2105069,41.95981,0
-                3.2107536,41.9597382,0
-                3.2122557,41.9599855,0
-                3.2121806,41.960177,0
-                3.2120947,41.9605121,0
-                3.2106464,41.9603525,0
-                3.2104693,41.9601491,0
+                3.2055475,41.9573527,0
+                3.2055717,41.9570735,0
+                3.2057567,41.9570814,0
+                3.2058103,41.9571592,0
+                3.2058734,41.9572889,0
+                3.2058774,41.9575182,0
+                3.2058666,41.9576629,0
+                3.2058183,41.9577077,0
+                3.2056307,41.9577037,0
+                3.2055703,41.9576539,0
+                3.2055475,41.9573527,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -861,17 +864,17 @@
         <styleUrl>#icon-1644-3949AB</styleUrl>
         <Point>
           <coordinates>
-            3.2113008,41.9601451,0
+            3.2057111,41.9575522,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>TRASLADOS / TRANSFER 3,5k</name>
-        <description>3,5k - Pàrquing de la deixalleria de Begur</description>
+        <description>3,5k - Carrer Júpiter, Begur</description>
         <styleUrl>#icon-1532-3949AB</styleUrl>
         <Point>
           <coordinates>
-            3.2117031,41.9604842,0
+            3.2055126,41.9591519,0
           </coordinates>
         </Point>
       </Placemark>
@@ -881,7 +884,7 @@
         <styleUrl>#icon-1684-3949AB</styleUrl>
         <Point>
           <coordinates>
-            3.2113813,41.9604483,0
+            3.2057165,41.9591957,0
           </coordinates>
         </Point>
       </Placemark>
