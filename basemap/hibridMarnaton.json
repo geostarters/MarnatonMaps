@@ -45,15 +45,15 @@
         "tileSize": 256,
         "maxzoom": 13
       },
-      "ortoICGC": {
-        "type": "raster",
-        "tiles": [
-          "https://geoserveis.icgc.cat/icc_mapesmultibase/noutm/wmts/orto/GRID3857/{z}/{x}/{y}.jpeg"
-        ],
-        "tileSize": 256,
-        "minzoom": 13.1,
-        "maxzoom": 20
-      },
+        "ortoICGC": {
+			"type": "raster",
+			"tiles": [
+				"https://geoserveis.icgc.cat/icc_mapesmultibase/noutm/wmts/orto/GRID3857/{z}/{x}/{y}.png"
+			],
+			"tileSize": 256,
+			"attribution": "<b>Ortofoto Catalunya</b>:<a href=\"https://www.icgc.cat/Aplicacions/Visors/ContextMaps\">Institut Cartogràfic i Geològic de Catalunya</a> |",
+			"maxzoom": 20
+		},
       "openmaptiles": {
         "type": "vector",
         "url": "https://geoserveis.icgc.cat/contextmaps/basemap.json"
