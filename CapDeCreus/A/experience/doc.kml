@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>SwimRun eDreams Cap de Creus by HEAD - SPRINT</name>
-    <description><![CDATA[8,5km Run + 2,5km Swim --> Cadaqués]]></description>
+    <description><![CDATA[5km Run + 1,5km Swim --> Cadaqués]]></description>
     <Style id="icon-1505-FF5252-nodesc-normal">
       <IconStyle>
         <scale>1</scale>
@@ -637,72 +637,6 @@
         <styleUrl>#icon-1865-3949AB-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-0288D1-6038-normal">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>6.038</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-0288D1-6038-highlight">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>9.057</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-0288D1-6038">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0288D1-6038-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0288D1-6038-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-0288D1-6231-normal">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>6.231</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-0288D1-6231-highlight">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>9.3465</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-0288D1-6231">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0288D1-6231-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0288D1-6231-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-0288D1-6425-normal">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>6.425</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-0288D1-6425-highlight">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>9.6375</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-0288D1-6425">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0288D1-6425-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0288D1-6425-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="line-0288D1-6619-normal">
       <LineStyle>
         <color>ffd18802</color>
@@ -1272,8 +1206,8 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Run 1 - 1.490m</name>
-        <description><![CDATA[Platja Es Poal  - Platja d'en Ballesta]]></description>
+        <name>Run 1 - 1.200m</name>
+        <description>Platja Es Poal  - Platja de Sant Antoni, Port Lligat</description>
         <styleUrl>#line-F57C00-7200</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1359,81 +1293,19 @@
             3.2883348,42.2942187,0
             3.2885869,42.2942147,0
             3.2887318,42.2941731,0
-            3.2888686,42.2943894,0
-            3.2886996,42.2948496,0
-            3.2884341,42.2954587,0
-            3.2883455,42.2956233,0
-            3.2882221,42.2958594,0
-            3.2882141,42.2961213,0
-            3.2882168,42.2974943,0
-            3.2884716,42.2973375,0
+            3.2888686,42.2941116,0
+            3.2889625,42.2940838,0
+            3.2890617,42.294058,0
+            3.289118,42.2940758,0
+            3.2891341,42.2941532,0
+            3.2891046,42.2942643,0
+            3.2892199,42.2942723,0
+            3.2893192,42.2941909,0
           </coordinates>
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Swim 2 - 280m</name>
-        <description><![CDATA[Platja d'en Ballesta - Platja de s'Alqueria]]></description>
-        <styleUrl>#line-0288D1-6231</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2885716,42.2973481,0
-            3.2891724,42.2974831,0
-            3.2895908,42.2976576,0
-            3.2899341,42.2979195,0
-            3.2900843,42.2981893,0
-            3.2899449,42.2984671,0
-            3.2893977,42.2990067,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Run 2 - 1900m</name>
-        <description><![CDATA[Platja de s'Alqueria - Platja de Guillola]]></description>
-        <styleUrl>#line-F57C00-6813</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2893348,42.2990658,0
-            3.2890237,42.2991293,0
-            3.2888628,42.2992562,0
-            3.2885731,42.299772,0
-            3.2881439,42.2998514,0
-            3.2876182,42.2998514,0
-            3.2873714,42.2998752,0
-            3.2870818,42.3002164,0
-            3.2857621,42.301859,0
-            3.285172,42.3021447,0
-            3.2851398,42.3025652,0
-            3.2852042,42.3032476,0
-            3.2852901,42.3033984,0
-            3.2851506,42.3035095,0
-            3.2850701,42.3039122,0
-            3.2852257,42.304061,0
-            3.2852793,42.3056281,0
-            3.2857192,42.305517,0
-            3.2859737,42.3060759,0
-            3.2863998,42.3063174,0
-            3.2864796,42.3067052,0
-            3.2863816,42.307465,0
-            3.2868231,42.3075453,0
-            3.2873076,42.3074034,0
-            3.2878258,42.3076433,0
-            3.288283,42.3073931,0
-            3.2892187,42.3076862,0
-            3.2899077,42.3077492,0
-            3.2903178,42.3076217,0
-            3.2914168,42.3075811,0
-            3.2921618,42.3077705,0
-            3.2928659,42.3073737,0
-            3.2933789,42.3072309,0
-            3.2936773,42.3070722,0
-            3.2944632,42.3071595,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Swim 6 - 420m</name>
+        <name>Swim 2 - 420m</name>
         <description>Platja de Sant Antoni, Port Lligat - Massabous, Illa de Port Lligat</description>
         <styleUrl>#line-0288D1-6619</styleUrl>
         <LineString>
@@ -1449,147 +1321,7 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Swim 3 - 500m</name>
-        <description>Platja de Guillola - Platja de Sant Lluis</description>
-        <styleUrl>#line-0288D1-6425</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2893371,42.3068507,0
-            3.2898307,42.3065492,0
-            3.2905602,42.3066444,0
-            3.2912254,42.3067872,0
-            3.2919335,42.3068348,0
-            3.2925129,42.3068031,0
-            3.2931137,42.3065651,0
-            3.2935643,42.306327,0
-            3.293972,42.3062635,0
-            3.2943582,42.3065968,0
-            3.2944632,42.3071595,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Run 3 - 450m</name>
-        <description><![CDATA[Platja de Sant Lluis - Platja d'en Paquel·la]]></description>
-        <styleUrl>#line-F57C00-6425</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2881544,42.3035299,0
-            3.2882939,42.3037521,0
-            3.2883153,42.303998,0
-            3.2884548,42.304125,0
-            3.2884226,42.3043551,0
-            3.288723,42.3045059,0
-            3.2893024,42.3047995,0
-            3.2896242,42.3047995,0
-            3.2898066,42.3049661,0
-            3.2897852,42.3051883,0
-            3.2897852,42.3053708,0
-            3.2896564,42.3054342,0
-            3.2894955,42.3054819,0
-            3.2892058,42.3055771,0
-            3.2890449,42.3056485,0
-            3.2890449,42.3058151,0
-            3.2892487,42.3059262,0
-            3.2893775,42.3061008,0
-            3.2893775,42.3062912,0
-            3.2893775,42.3063785,0
-            3.2891844,42.3064975,0
-            3.2889805,42.3067673,0
-            3.2890878,42.3069498,0
-            3.2893371,42.3068507,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Swim 4 - 200m</name>
-        <description><![CDATA[Platja d'en Paquel·la - Platja d'en Talladofins]]></description>
-        <styleUrl>#line-0288D1-7006</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2881544,42.3035299,0
-            3.2884333,42.3033569,0
-            3.2888196,42.3031506,0
-            3.2891736,42.3029522,0
-            3.2893024,42.3028411,0
-            3.2893989,42.3026983,0
-            3.2894633,42.3025713,0
-            3.2894848,42.3024126,0
-            3.2896779,42.3021666,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Run 4 - 600m</name>
-        <description><![CDATA[Platja d'en Talladofins - GR92 Illot de s'Alqueria]]></description>
-        <styleUrl>#line-F57C00-6425</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2897179,42.3021183,0
-            3.2899862,42.3020151,0
-            3.29019,42.3019199,0
-            3.2903402,42.3018167,0
-            3.2907372,42.3017929,0
-            3.2910376,42.301658,0
-            3.2913058,42.3016025,0
-            3.2915955,42.3016263,0
-            3.2918423,42.301658,0
-            3.2919174,42.3015311,0
-            3.291971,42.3013009,0
-            3.2917779,42.3010391,0
-            3.291338,42.3007058,0
-            3.2910805,42.3004281,0
-            3.2908445,42.3000789,0
-            3.2906192,42.299817,0
-            3.2906299,42.2996266,0
-            3.2907801,42.2995393,0
-            3.2910591,42.2993647,0
-            3.2911878,42.2991901,0
-            3.2910376,42.2988886,0
-            3.2907372,42.298841,0
-            3.2905333,42.2988806,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Swim 5 - 240m</name>
-        <description><![CDATA[GR92, Illot de s'Alqueria - Platja d'en Ballesta]]></description>
-        <styleUrl>#line-0288D1-6038</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2905333,42.2988806,0
-            3.2901149,42.2980902,0
-            3.2890849,42.2974236,0
-            3.2885716,42.2973481,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Run 5- 440m</name>
-        <description><![CDATA[Platja d'en Ballesta ENERGY 1 - Platja de Sant Antoni]]></description>
-        <styleUrl>#line-F57C00-6813</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2884716,42.2973375,0
-            3.2882632,42.2974209,0
-            3.2882203,42.2964686,0
-            3.2882203,42.295929,0
-            3.2883455,42.2956233,0
-            3.2886996,42.2948496,0
-            3.2889498,42.2943021,0
-            3.289143,42.2942307,0
-            3.2893111,42.294177,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Run 6 - 500m</name>
+        <name>Run 2 - 500m</name>
         <styleUrl>#line-F57C00-6038-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1635,7 +1367,7 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Swim 7 - 140m</name>
+        <name>Swim 3 - 140m</name>
         <description><![CDATA[Platja de S'Illa - Platja d'en Pep Ton]]></description>
         <styleUrl>#line-0288D1-7200</styleUrl>
         <LineString>
@@ -1647,7 +1379,7 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Run 7 - 1.150m</name>
+        <name>Run 3 - 1.150m</name>
         <description><![CDATA[Platja d'en Pep Ton - Platja de Caials]]></description>
         <styleUrl>#line-F57C00-6425</styleUrl>
         <LineString>
@@ -1750,7 +1482,7 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Swim 8 - 500m</name>
+        <name>Swim 4 - 500m</name>
         <description><![CDATA[Paltja de Caials - Racó d'en Senés]]></description>
         <styleUrl>#line-0288D1-7200</styleUrl>
         <LineString>
@@ -1772,7 +1504,7 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Run 8 - 1.050m</name>
+        <name>Run 4 - 1.050m</name>
         <description><![CDATA[Racó d'en Senés - Platja d'en Ros]]></description>
         <styleUrl>#line-F57C00-6813</styleUrl>
         <LineString>
@@ -1840,7 +1572,7 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Swim 9 - 190m</name>
+        <name>Swim 5 - 190m</name>
         <description><![CDATA[Platja d'en Ros - Platja de Ses Oliveres]]></description>
         <styleUrl>#line-0288D1-7006</styleUrl>
         <LineString>
@@ -1853,7 +1585,7 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Run 9 - 610m</name>
+        <name>Run 5 - 610m</name>
         <description>Platja de Ses Oliveres - Platja Es Pianc</description>
         <styleUrl>#line-F57C00-6619</styleUrl>
         <LineString>
@@ -1892,7 +1624,7 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Swim 10 - 130m</name>
+        <name>Swim 6 - 130m</name>
         <description>Platja Es Pianc - Platja Es Poal</description>
         <styleUrl>#line-0288D1-6619</styleUrl>
         <LineString>
@@ -1910,7 +1642,7 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Run 10 - 300m</name>
+        <name>Run 6 - 300m</name>
         <description>Platja Es Poal - Passeig de Cadaqués</description>
         <styleUrl>#line-F57C00-6813</styleUrl>
         <LineString>
@@ -1941,10 +1673,13 @@
         <styleUrl>#icon-1578-9C27B0-nodesc</styleUrl>
         <Point>
           <coordinates>
-            3.2889186,42.2943195,0
+            3.2910215,42.2828905,0
           </coordinates>
         </Point>
       </Placemark>
+    </Folder>
+    <Folder>
+      <name>Capa sin nombre</name>
     </Folder>
   </Document>
 </kml>
