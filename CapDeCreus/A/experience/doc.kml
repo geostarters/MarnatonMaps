@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>SwimRun eDreams Cap de Creus by HEAD - SPRINT</name>
+    <name>SwimRun eDreams Cap de Creus by HEAD - Experienc</name>
     <description><![CDATA[5km Run + 1,5km Swim --> Cadaqués]]></description>
     <Style id="icon-1505-FF5252-nodesc-normal">
       <IconStyle>
@@ -77,44 +77,6 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#icon-1532-3949AB-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1578-9C27B0-nodesc-normal">
-      <IconStyle>
-        <scale>1</scale>
-        <Icon>
-          <href>images/icon-16.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1578-9C27B0-nodesc-highlight">
-      <IconStyle>
-        <scale>1</scale>
-        <Icon>
-          <href>images/icon-16.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1578-9C27B0-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1578-9C27B0-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1578-9C27B0-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-1594-3949AB-nodesc-normal">
@@ -1181,7 +1143,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>START SPRINT</name>
+        <name>START EXPERIENCE</name>
         <styleUrl>#icon-1701-3949AB-nodesc</styleUrl>
         <Point>
           <coordinates>
@@ -1668,18 +1630,6 @@
           </coordinates>
         </LineString>
       </Placemark>
-      <Placemark>
-        <name>Avituallamiento / Refreshment</name>
-        <styleUrl>#icon-1578-9C27B0-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            3.2910215,42.2828905,0
-          </coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>Capa sin nombre</name>
     </Folder>
   </Document>
 </kml>
