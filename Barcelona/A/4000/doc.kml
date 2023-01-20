@@ -1,45 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>MARNATON BARCELONA 4k</name>
-    <description><![CDATA[4km - Playa de Sant Sebastià --> Playa de la Mar Bella]]></description>
-    <Style id="icon-1532-3949AB-normal">
+    <name>MARNATON BARCELONA</name>
+    <description><![CDATA[2km --> 1 vuelta<br>4km --> 2 vuelta<br>6km --> 3 vuelta]]></description>
+    <Style id="icon-1563-FFD600-nodesc-normal">
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-5.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1532-3949AB-highlight">
-      <IconStyle>
-        <scale>1</scale>
-        <Icon>
-          <href>images/icon-5.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1532-3949AB">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1532-3949AB-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1532-3949AB-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1532-3949AB-nodesc-normal">
-      <IconStyle>
-        <scale>1</scale>
-        <Icon>
-          <href>images/icon-5.png</href>
+          <href>images/icon-14.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -49,11 +17,11 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1532-3949AB-nodesc-highlight">
+    <Style id="icon-1563-FFD600-nodesc-highlight">
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-5.png</href>
+          <href>images/icon-14.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -63,21 +31,21 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1532-3949AB-nodesc">
+    <StyleMap id="icon-1563-FFD600-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1532-3949AB-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1563-FFD600-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1532-3949AB-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1563-FFD600-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-1567-3949AB-nodesc-normal">
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-6.png</href>
+          <href>images/icon-4.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -91,7 +59,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-6.png</href>
+          <href>images/icon-4.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -115,7 +83,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-4.png</href>
+          <href>images/icon-3.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -129,7 +97,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-4.png</href>
+          <href>images/icon-3.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -153,7 +121,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-7.png</href>
+          <href>images/icon-5.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -167,7 +135,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-7.png</href>
+          <href>images/icon-5.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -191,7 +159,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-13.png</href>
+          <href>images/icon-10.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -205,7 +173,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-13.png</href>
+          <href>images/icon-10.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -229,7 +197,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-16.png</href>
+          <href>images/icon-11.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -243,7 +211,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-16.png</href>
+          <href>images/icon-11.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -263,49 +231,11 @@
         <styleUrl>#icon-1624-FF5252-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1661-3949AB-nodesc-normal">
-      <IconStyle>
-        <scale>1</scale>
-        <Icon>
-          <href>images/icon-10.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1661-3949AB-nodesc-highlight">
-      <IconStyle>
-        <scale>1</scale>
-        <Icon>
-          <href>images/icon-10.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1661-3949AB-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1661-3949AB-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1661-3949AB-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="icon-1684-3949AB-nodesc-normal">
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-3.png</href>
+          <href>images/icon-2.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -319,7 +249,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-3.png</href>
+          <href>images/icon-2.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -343,7 +273,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-9.png</href>
+          <href>images/icon-6.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -357,7 +287,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-9.png</href>
+          <href>images/icon-6.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -381,7 +311,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-12.png</href>
+          <href>images/icon-15.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -395,7 +325,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-12.png</href>
+          <href>images/icon-15.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -419,7 +349,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-14.png</href>
+          <href>images/icon-9.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -433,7 +363,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-14.png</href>
+          <href>images/icon-9.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -495,7 +425,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-11.png</href>
+          <href>images/icon-8.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -509,7 +439,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-11.png</href>
+          <href>images/icon-8.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -533,7 +463,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-15.png</href>
+          <href>images/icon-16.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -547,7 +477,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-15.png</href>
+          <href>images/icon-16.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -571,7 +501,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-8.png</href>
+          <href>images/icon-7.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -585,7 +515,7 @@
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-8.png</href>
+          <href>images/icon-7.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -605,11 +535,11 @@
         <styleUrl>#icon-1798-3949AB-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1865-3949AB-nodesc-normal">
+    <Style id="icon-1888-FFD600-nodesc-normal">
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-2.png</href>
+          <href>images/icon-13.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -619,11 +549,11 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1865-3949AB-nodesc-highlight">
+    <Style id="icon-1888-FFD600-nodesc-highlight">
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-2.png</href>
+          <href>images/icon-13.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -633,21 +563,21 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1865-3949AB-nodesc">
+    <StyleMap id="icon-1888-FFD600-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1865-3949AB-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1888-FFD600-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1865-3949AB-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1888-FFD600-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1879-9C27B0-nodesc-normal">
+    <Style id="icon-1894-FF5252-nodesc-normal">
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-17.png</href>
+          <href>images/icon-12.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -657,11 +587,11 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1879-9C27B0-nodesc-highlight">
+    <Style id="icon-1894-FF5252-nodesc-highlight">
       <IconStyle>
         <scale>1</scale>
         <Icon>
-          <href>images/icon-17.png</href>
+          <href>images/icon-12.png</href>
         </Icon>
       </IconStyle>
       <LabelStyle>
@@ -671,36 +601,74 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1879-9C27B0-nodesc">
+    <StyleMap id="icon-1894-FF5252-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1879-9C27B0-nodesc-normal</styleUrl>
+        <styleUrl>#icon-1894-FF5252-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1879-9C27B0-nodesc-highlight</styleUrl>
+        <styleUrl>#icon-1894-FF5252-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-FFFF8D-6619-normal">
+    <Style id="line-9C27B0-6619-normal">
       <LineStyle>
-        <color>ff8dffff</color>
+        <color>ffb0279c</color>
         <width>6.619</width>
       </LineStyle>
     </Style>
-    <Style id="line-FFFF8D-6619-highlight">
+    <Style id="line-9C27B0-6619-highlight">
       <LineStyle>
-        <color>ff8dffff</color>
+        <color>ffb0279c</color>
         <width>9.9285</width>
       </LineStyle>
     </Style>
-    <StyleMap id="line-FFFF8D-6619">
+    <StyleMap id="line-9C27B0-6619">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-FFFF8D-6619-normal</styleUrl>
+        <styleUrl>#line-9C27B0-6619-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-FFFF8D-6619-highlight</styleUrl>
+        <styleUrl>#line-9C27B0-6619-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-3949AB-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ffab4939</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dab4939</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-3949AB-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ffab4939</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dab4939</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-3949AB-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-3949AB-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-3949AB-1200-77-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Folder>
@@ -710,16 +678,7 @@
         <styleUrl>#icon-1733-3949AB-nodesc</styleUrl>
         <Point>
           <coordinates>
-            2.2135066,41.4004708,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Duchas/Showers</name>
-        <styleUrl>#icon-1865-3949AB-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            2.2135953,41.4003924,0
+            2.2127262,41.4004548,0
           </coordinates>
         </Point>
       </Placemark>
@@ -728,7 +687,7 @@
         <styleUrl>#icon-1684-3949AB-nodesc</styleUrl>
         <Point>
           <coordinates>
-            2.2126415,41.4008526,0
+            2.212703,41.4008425,0
           </coordinates>
         </Point>
       </Placemark>
@@ -737,17 +696,7 @@
         <styleUrl>#icon-1594-3949AB-nodesc</styleUrl>
         <Point>
           <coordinates>
-            2.2122014,41.4009221,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Traslados / Transfer</name>
-        <description><![CDATA[5km <br>3km ]]></description>
-        <styleUrl>#icon-1532-3949AB</styleUrl>
-        <Point>
-          <coordinates>
-            2.2101606,41.3996204,0
+            2.2120567,41.4008678,0
           </coordinates>
         </Point>
       </Placemark>
@@ -756,7 +705,7 @@
         <styleUrl>#icon-1684-3949AB-nodesc</styleUrl>
         <Point>
           <coordinates>
-            2.2119925,41.400739,0
+            2.2120702,41.4006724,0
           </coordinates>
         </Point>
       </Placemark>
@@ -765,7 +714,7 @@
         <styleUrl>#icon-1567-3949AB-nodesc</styleUrl>
         <Point>
           <coordinates>
-            2.2121615,41.4006068,0
+            2.2129285,41.4006272,0
           </coordinates>
         </Point>
       </Placemark>
@@ -774,7 +723,7 @@
         <styleUrl>#icon-1608-3949AB-nodesc</styleUrl>
         <Point>
           <coordinates>
-            2.2128597,41.4005334,0
+            2.21003,41.4041668,0
           </coordinates>
         </Point>
       </Placemark>
@@ -783,16 +732,7 @@
         <styleUrl>#icon-1608-3949AB-nodesc</styleUrl>
         <Point>
           <coordinates>
-            2.212979,41.4006339,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Entrega Premios / Awards ceremony</name>
-        <styleUrl>#icon-1798-3949AB-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            2.2123304,41.4009815,0
+            2.2128905,41.4007145,0
           </coordinates>
         </Point>
       </Placemark>
@@ -801,7 +741,16 @@
         <styleUrl>#icon-1685-3949AB-nodesc</styleUrl>
         <Point>
           <coordinates>
-            2.2124468,41.4007381,0
+            2.2124953,41.4007501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrega Premios / Awards ceremony</name>
+        <styleUrl>#icon-1798-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.2122631,41.4009053,0
           </coordinates>
         </Point>
       </Placemark>
@@ -809,57 +758,39 @@
     <Folder>
       <name>Recorridos</name>
       <Placemark>
-        <name>Finish Line</name>
-        <styleUrl>#icon-1661-3949AB-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            2.2137534,41.399308,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>FISIO</name>
         <styleUrl>#icon-1737-3949AB-nodesc</styleUrl>
         <Point>
           <coordinates>
-            2.2123586,41.4004892,0
+            2.2123909,41.4005395,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>START 4k</name>
-        <styleUrl>#icon-1701-3949AB-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            2.18931,41.3706352,0
-          </coordinates>
-        </Point>
+        <name>FINISH LINE</name>
+        <styleUrl>#poly-3949AB-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                2.1894056,41.3706745,0
+                2.1891535,41.3706554,0
+                2.1891803,41.3704461,0
+                2.1894445,41.3704682,0
+                2.189417,41.3706277,0
+                2.1894056,41.3706745,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
       </Placemark>
       <Placemark>
-        <name>Recorrido / Course 4km</name>
-        <description>Playa de Sant Sebastià</description>
-        <styleUrl>#line-FFFF8D-6619</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            2.2137656,41.3993032,0
-            2.2160186,41.3973637,0
-            2.2066416,41.3887918,0
-            2.2034229,41.3854594,0
-            2.2012557,41.3832537,0
-            2.1977367,41.3797761,0
-            2.1939816,41.3741728,0
-            2.1918894,41.3709604,0
-            2.1894297,41.3706071,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Traslado / Transfer</name>
-        <styleUrl>#icon-1532-3949AB-nodesc</styleUrl>
+        <name>Agua / Water</name>
+        <styleUrl>#icon-1703-3949AB-nodesc</styleUrl>
         <Point>
           <coordinates>
-            2.1875684,41.3707008,0
+            2.2133312,41.399673,0
           </coordinates>
         </Point>
       </Placemark>
@@ -868,43 +799,7 @@
         <styleUrl>#icon-1610-3949AB-nodesc</styleUrl>
         <Point>
           <coordinates>
-            2.1891214,41.3706849,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Agua / Water</name>
-        <styleUrl>#icon-1703-3949AB-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            2.1891481,41.3705498,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Guardarropía / Bag Drop</name>
-        <styleUrl>#icon-1684-3949AB-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            2.1884454,41.3703185,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Control Chip</name>
-        <styleUrl>#icon-1769-558B2F-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            2.1894673,41.3706344,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>WC</name>
-        <styleUrl>#icon-1733-3949AB-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            2.1887082,41.3702963,0
+            2.213554,41.3997417,0
           </coordinates>
         </Point>
       </Placemark>
@@ -913,16 +808,105 @@
         <styleUrl>#icon-1624-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            2.2140899,41.3997885,0
+            2.2139827,41.3999415,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>Avituallamiento/Refreshment</name>
-        <styleUrl>#icon-1879-9C27B0-nodesc</styleUrl>
+        <name>Recorrido Relevos / Relays course</name>
+        <description>12:00h</description>
+        <styleUrl>#line-9C27B0-6619</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            2.2134596,41.3991599,0
+            2.2146944,41.3975476,0
+            2.2097327,41.3928581,0
+            2.2108866,41.3921042,0
+            2.216011,41.3973541,0
+            2.2144855,41.3986521,0
+            2.2139207,41.3992848,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Boya/Buoy</name>
+        <styleUrl>#icon-1894-FF5252-nodesc</styleUrl>
         <Point>
           <coordinates>
-            2.2046897,41.3861839,0
+            2.2140987,41.3976055,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya/Buoy</name>
+        <styleUrl>#icon-1888-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.2154746,41.397338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya/Buoy</name>
+        <styleUrl>#icon-1563-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.2138589,41.3991138,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya/Buoy</name>
+        <styleUrl>#icon-1563-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.2141383,41.3992356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>START</name>
+        <styleUrl>#icon-1701-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.2133308,41.3993902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Control Chip</name>
+        <styleUrl>#icon-1769-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.2138683,41.3993686,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Control Chip</name>
+        <styleUrl>#icon-1769-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.2134268,41.3992208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya/Buoy</name>
+        <styleUrl>#icon-1888-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.2100713,41.3929274,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boya/Buoy</name>
+        <styleUrl>#icon-1888-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.2108009,41.3923962,0
           </coordinates>
         </Point>
       </Placemark>
