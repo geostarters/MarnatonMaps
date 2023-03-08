@@ -1,0 +1,201 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					1.4412169,
+					39.0794791,
+					0
+				]
+			},
+			"properties": {
+				"name": "Briefing",
+				"styleUrl": "#icon-1608-0288D1-nodesc",
+				"styleHash": "2857693b",
+				"styleMapHash": {
+					"normal": "#icon-1608-0288D1-nodesc-normal",
+					"highlight": "#icon-1608-0288D1-nodesc-highlight"
+				}
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					1.4406722,
+					39.0781565,
+					0
+				]
+			},
+			"properties": {
+				"name": "Bolsa Nadador / Check IN",
+				"styleUrl": "#icon-1684-0288D1-nodesc",
+				"styleHash": "-44158bd0",
+				"styleMapHash": {
+					"normal": "#icon-1684-0288D1-nodesc-normal",
+					"highlight": "#icon-1684-0288D1-nodesc-highlight"
+				}
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					1.4411925,
+					39.079623,
+					0
+				]
+			},
+			"properties": {
+				"name": "Sunset Party",
+				"styleUrl": "#icon-1517-0288D1-nodesc",
+				"styleHash": "-fd5326",
+				"styleMapHash": {
+					"normal": "#icon-1517-0288D1-nodesc-normal",
+					"highlight": "#icon-1517-0288D1-nodesc-highlight"
+				}
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					1.4423491,
+					39.0790711,
+					0
+				]
+			},
+			"properties": {
+				"name": "Entrega Premios",
+				"styleUrl": "#icon-1798-0288D1-nodesc",
+				"styleHash": "-7e68ecea",
+				"styleMapHash": {
+					"normal": "#icon-1798-0288D1-nodesc-normal",
+					"highlight": "#icon-1798-0288D1-nodesc-highlight"
+				}
+			}
+		},
+		
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						1.4405152,
+						39.0804299,
+						0
+					],
+					[
+						1.4402564,
+						39.0879905,
+						0
+					],
+					[
+						1.4375956,
+						39.0889898,
+						0
+					],
+					[
+						1.4310081,
+						39.0908384,
+						0
+					],
+					[
+						1.4306005,
+						39.0915879,
+						0
+					],
+					[
+						1.4307077,
+						39.092687,
+						0
+					],
+					[
+						1.4313729,
+						39.0934365,
+						0
+					],
+					[
+						1.4321025,
+						39.0934698,
+						0
+					],
+					[
+						1.4529808,
+						39.0897226,
+						0
+					],
+					[
+						1.452895,
+						39.0890564,
+						0
+					],
+					[
+						1.4482601,
+						39.0896227,
+						0
+					],
+					[
+						1.4432819,
+						39.0880904,
+						0
+					],
+					[
+						1.4410503,
+						39.0835268,
+						0
+					],
+					[
+						1.4407499,
+						39.082161,
+						0
+					],
+					[
+						1.4406089,
+						39.0804534,
+						0
+					]
+				]
+			},
+			"properties": {
+				"name": "Plan C",
+				"styleUrl": "#line-FBC02D-7200-nodesc",
+				"styleHash": "5d47c425",
+				"styleMapHash": {
+					"normal": "#line-FBC02D-7200-nodesc-normal",
+					"highlight": "#line-FBC02D-7200-nodesc-highlight"
+				},
+				"stroke": "#fbc02d",
+				"stroke-opacity": 1,
+				"stroke-width": 7.2
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					1.4399536,
+					39.0793149,
+					0
+				]
+			},
+			"properties": {
+				"name": "Traslado nadadores",
+				"styleUrl": "#icon-1532-0288D1-nodesc",
+				"styleHash": "-347eccab",
+				"styleMapHash": {
+					"normal": "#icon-1532-0288D1-nodesc-normal",
+					"highlight": "#icon-1532-0288D1-nodesc-highlight"
+				}
+			}
+		}
+	]
+}
