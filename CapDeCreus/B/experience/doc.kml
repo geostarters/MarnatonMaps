@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>SwimRun eDreams Cap de Creus by HEAD - SPRINT B</name>
-    <description><![CDATA[Sprint B<br>8,5km Run + 2,5km Swim --> Cadaqués]]></description>
+    <description><![CDATA[5km Run + 1,5km Swim --> Cadaqués]]></description>
     <Style id="icon-1505-FF5252-nodesc-normal">
       <IconStyle>
         <scale>1</scale>
@@ -605,7 +605,7 @@
         <styleUrl>#icon-1798-3949AB-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1865-3949AB-normal">
+    <Style id="icon-1865-3949AB-nodesc-normal">
       <IconStyle>
         <scale>1</scale>
         <Icon>
@@ -615,8 +615,11 @@
       <LabelStyle>
         <scale>0</scale>
       </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
     </Style>
-    <Style id="icon-1865-3949AB-highlight">
+    <Style id="icon-1865-3949AB-nodesc-highlight">
       <IconStyle>
         <scale>1</scale>
         <Icon>
@@ -626,81 +629,18 @@
       <LabelStyle>
         <scale>1</scale>
       </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1865-3949AB">
+    <StyleMap id="icon-1865-3949AB-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1865-3949AB-normal</styleUrl>
+        <styleUrl>#icon-1865-3949AB-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1865-3949AB-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-0288D1-6038-normal">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>6.038</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-0288D1-6038-highlight">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>9.057</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-0288D1-6038">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0288D1-6038-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0288D1-6038-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-0288D1-6231-normal">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>6.231</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-0288D1-6231-highlight">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>9.3465</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-0288D1-6231">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0288D1-6231-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0288D1-6231-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-0288D1-6425-normal">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>6.425</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-0288D1-6425-highlight">
-      <LineStyle>
-        <color>ffd18802</color>
-        <width>9.6375</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-0288D1-6425">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0288D1-6425-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0288D1-6425-highlight</styleUrl>
+        <styleUrl>#icon-1865-3949AB-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="line-0288D1-6619-normal">
@@ -791,34 +731,6 @@
         <styleUrl>#line-0288D1-7200-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-F57C00-6038-nodesc-normal">
-      <LineStyle>
-        <color>ff007cf5</color>
-        <width>6.038</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-F57C00-6038-nodesc-highlight">
-      <LineStyle>
-        <color>ff007cf5</color>
-        <width>9.057</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-F57C00-6038-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-F57C00-6038-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-F57C00-6038-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="line-F57C00-6425-normal">
       <LineStyle>
         <color>ff007cf5</color>
@@ -907,32 +819,32 @@
         <styleUrl>#line-F57C00-7200-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-FF5252-5844-nodesc-normal">
+    <Style id="line-FF5252-6619-nodesc-normal">
       <LineStyle>
         <color>ff5252ff</color>
-        <width>5.844</width>
+        <width>6.619</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-FF5252-5844-nodesc-highlight">
+    <Style id="line-FF5252-6619-nodesc-highlight">
       <LineStyle>
         <color>ff5252ff</color>
-        <width>8.766</width>
+        <width>9.9285</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-FF5252-5844-nodesc">
+    <StyleMap id="line-FF5252-6619-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-FF5252-5844-nodesc-normal</styleUrl>
+        <styleUrl>#line-FF5252-6619-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-FF5252-5844-nodesc-highlight</styleUrl>
+        <styleUrl>#line-FF5252-6619-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="line-FF5252-6813-nodesc-normal">
@@ -963,6 +875,34 @@
         <styleUrl>#line-FF5252-6813-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="line-FF5252-7006-nodesc-normal">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>7.006</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF5252-7006-nodesc-highlight">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>10.509</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF5252-7006-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF5252-7006-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF5252-7006-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-FF5252-7200-nodesc-normal">
       <LineStyle>
         <color>ff5252ff</color>
@@ -989,62 +929,6 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#line-FF5252-7200-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-FF5252-7394-nodesc-normal">
-      <LineStyle>
-        <color>ff5252ff</color>
-        <width>7.394</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-FF5252-7394-nodesc-highlight">
-      <LineStyle>
-        <color>ff5252ff</color>
-        <width>11.091</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-FF5252-7394-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-FF5252-7394-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-FF5252-7394-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-FF5252-7975-nodesc-normal">
-      <LineStyle>
-        <color>ff5252ff</color>
-        <width>7.975</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-FF5252-7975-nodesc-highlight">
-      <LineStyle>
-        <color>ff5252ff</color>
-        <width>11.9625</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-FF5252-7975-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-FF5252-7975-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-FF5252-7975-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-3949AB-1200-77-nodesc-normal">
@@ -1134,8 +1018,7 @@
       </Placemark>
       <Placemark>
         <name>Duchas / Showers</name>
-        <description>09:00 - 13:00h</description>
-        <styleUrl>#icon-1865-3949AB</styleUrl>
+        <styleUrl>#icon-1865-3949AB-nodesc</styleUrl>
         <Point>
           <coordinates>
             3.2792897,42.2927102,0
@@ -1365,75 +1248,6 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>B</name>
-        <styleUrl>#line-FF5252-7200-nodesc</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2882168,42.2974943,0
-            3.287845,42.2979944,0
-            3.2875231,42.2983436,0
-            3.2872549,42.2997402,0
-            3.2873714,42.2998752,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>B</name>
-        <styleUrl>#line-FF5252-5844-nodesc</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2905598,42.2989376,0
-            3.2901199,42.2990646,0
-            3.289562,42.2991519,0
-            3.2893348,42.2990658,0
-            3.2890717,42.298988,0
-            3.2888142,42.2987737,0
-            3.2879881,42.2979484,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>B</name>
-        <styleUrl>#line-FF5252-6813-nodesc</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2881057,42.303428,0
-            3.2876659,42.3031264,0
-            3.2868397,42.3037771,0
-            3.2864642,42.3036898,0
-            3.2865179,42.3033089,0
-            3.2868612,42.3025868,0
-            3.2872045,42.302206,0
-            3.2874835,42.3020155,0
-            3.287741,42.3017775,0
-            3.287698,42.3015315,0
-            3.2882238,42.3016664,0
-            3.2887387,42.301714,0
-            3.2887817,42.3020631,0
-            3.2887817,42.3022853,0
-            3.2890391,42.3023964,0
-            3.289597,42.3018886,0
-            3.2901764,42.3017933,0
-            3.2903402,42.3018167,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>B</name>
-        <styleUrl>#line-FF5252-7200-nodesc</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2890249,42.3075991,0
-            3.2892716,42.3071547,0
-            3.2892716,42.3069286,0
-          </coordinates>
-        </LineString>
-      </Placemark>
     </Folder>
     <Folder>
       <name>Recorrido SPRINT</name>
@@ -1481,8 +1295,24 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Run 1 - 1.490m</name>
-        <description><![CDATA[Platja Es Poal  - Platja d'en Ballesta]]></description>
+        <name>Swim 1B - 180m</name>
+        <styleUrl>#line-FF5252-6619-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            3.2789282,42.2889547,0
+            3.2793332,42.2889884,0
+            3.2796336,42.2889606,0
+            3.2798777,42.2888694,0
+            3.2803095,42.2886908,0
+            3.2806984,42.28879,0
+            3.2809854,42.2887563,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Run 1 - 1.200m</name>
+        <description>Platja Es Poal  - Platja de Sant Antoni, Port Lligat</description>
         <styleUrl>#line-F57C00-7200</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1568,81 +1398,19 @@
             3.2883348,42.2942187,0
             3.2885869,42.2942147,0
             3.2887318,42.2941731,0
-            3.2888686,42.2943894,0
-            3.2886996,42.2948496,0
-            3.2884341,42.2954587,0
-            3.2883455,42.2956233,0
-            3.2882221,42.2958594,0
-            3.2882141,42.2961213,0
-            3.2882168,42.2974943,0
-            3.2884716,42.2973375,0
+            3.2888686,42.2941116,0
+            3.2889625,42.2940838,0
+            3.2890617,42.294058,0
+            3.289118,42.2940758,0
+            3.2891341,42.2941532,0
+            3.2891046,42.2942643,0
+            3.2892199,42.2942723,0
+            3.2893192,42.2941909,0
           </coordinates>
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Swim 2 - 280m</name>
-        <description><![CDATA[Platja d'en Ballesta - Platja de s'Alqueria]]></description>
-        <styleUrl>#line-0288D1-6231</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2885716,42.2973481,0
-            3.2891724,42.2974831,0
-            3.2895908,42.2976576,0
-            3.2899341,42.2979195,0
-            3.2900843,42.2981893,0
-            3.2899449,42.2984671,0
-            3.2893977,42.2990067,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Run 2 - 1900m</name>
-        <description><![CDATA[Platja de s'Alqueria - Platja de Guillola]]></description>
-        <styleUrl>#line-F57C00-6813</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2893348,42.2990658,0
-            3.2890237,42.2991293,0
-            3.2888628,42.2992562,0
-            3.2885731,42.299772,0
-            3.2881439,42.2998514,0
-            3.2876182,42.2998514,0
-            3.2873714,42.2998752,0
-            3.2870818,42.3002164,0
-            3.2857621,42.301859,0
-            3.285172,42.3021447,0
-            3.2851398,42.3025652,0
-            3.2852042,42.3032476,0
-            3.2852901,42.3033984,0
-            3.2851506,42.3035095,0
-            3.2850701,42.3039122,0
-            3.2852257,42.304061,0
-            3.2852793,42.3056281,0
-            3.2857192,42.305517,0
-            3.2859737,42.3060759,0
-            3.2863998,42.3063174,0
-            3.2864796,42.3067052,0
-            3.2863816,42.307465,0
-            3.2868231,42.3075453,0
-            3.2873076,42.3074034,0
-            3.2878258,42.3076433,0
-            3.288283,42.3073931,0
-            3.2892187,42.3076862,0
-            3.2899077,42.3077492,0
-            3.2903178,42.3076217,0
-            3.2914168,42.3075811,0
-            3.2921618,42.3077705,0
-            3.2928659,42.3073737,0
-            3.2933789,42.3072309,0
-            3.2936773,42.3070722,0
-            3.2944632,42.3071595,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Swim 6 - 420m</name>
+        <name>Swim 2 - 420m</name>
         <description>Platja de Sant Antoni, Port Lligat - Massabous, Illa de Port Lligat</description>
         <styleUrl>#line-0288D1-6619</styleUrl>
         <LineString>
@@ -1658,205 +1426,61 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Swim 3 - 500m</name>
-        <description>Platja de Guillola - Platja de Sant Lluis</description>
-        <styleUrl>#line-0288D1-6425</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2893371,42.3068507,0
-            3.2898307,42.3065492,0
-            3.2905602,42.3066444,0
-            3.2912254,42.3067872,0
-            3.2919335,42.3068348,0
-            3.2925129,42.3068031,0
-            3.2931137,42.3065651,0
-            3.2935643,42.306327,0
-            3.293972,42.3062635,0
-            3.2943582,42.3065968,0
-            3.2944632,42.3071595,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Run 3 - 450m</name>
-        <description><![CDATA[Platja de Sant Lluis - Platja d'en Paquel·la]]></description>
-        <styleUrl>#line-F57C00-6425</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2881544,42.3035299,0
-            3.2882939,42.3037521,0
-            3.2883153,42.303998,0
-            3.2884548,42.304125,0
-            3.2884226,42.3043551,0
-            3.288723,42.3045059,0
-            3.2893024,42.3047995,0
-            3.2896242,42.3047995,0
-            3.2898066,42.3049661,0
-            3.2897852,42.3051883,0
-            3.2897852,42.3053708,0
-            3.2896564,42.3054342,0
-            3.2894955,42.3054819,0
-            3.2892058,42.3055771,0
-            3.2890449,42.3056485,0
-            3.2890449,42.3058151,0
-            3.2892487,42.3059262,0
-            3.2893775,42.3061008,0
-            3.2893775,42.3062912,0
-            3.2893775,42.3063785,0
-            3.2891844,42.3064975,0
-            3.2889805,42.3067673,0
-            3.2890878,42.3069498,0
-            3.2893371,42.3068507,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Swim 4 - 200m</name>
-        <description><![CDATA[Platja d'en Paquel·la - Platja d'en Talladofins]]></description>
-        <styleUrl>#line-0288D1-7006</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2881544,42.3035299,0
-            3.2884333,42.3033569,0
-            3.2888196,42.3031506,0
-            3.2891736,42.3029522,0
-            3.2893024,42.3028411,0
-            3.2893989,42.3026983,0
-            3.2894633,42.3025713,0
-            3.2894848,42.3024126,0
-            3.2896779,42.3021666,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Run 4 - 600m</name>
-        <description><![CDATA[Platja d'en Talladofins - GR92 Illot de s'Alqueria]]></description>
-        <styleUrl>#line-F57C00-6425</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2897179,42.3021183,0
-            3.2899862,42.3020151,0
-            3.29019,42.3019199,0
-            3.2903402,42.3018167,0
-            3.2907372,42.3017929,0
-            3.2910376,42.301658,0
-            3.2913058,42.3016025,0
-            3.2915955,42.3016263,0
-            3.2918423,42.301658,0
-            3.2919174,42.3015311,0
-            3.291971,42.3013009,0
-            3.2917779,42.3010391,0
-            3.291338,42.3007058,0
-            3.2910805,42.3004281,0
-            3.2908445,42.3000789,0
-            3.2906192,42.299817,0
-            3.2906299,42.2996266,0
-            3.2907801,42.2995393,0
-            3.2910591,42.2993647,0
-            3.2911878,42.2991901,0
-            3.2910376,42.2988886,0
-            3.2907372,42.298841,0
-            3.2905333,42.2988806,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Swim 5 - 240m</name>
-        <description><![CDATA[GR92, Illot de s'Alqueria - Platja d'en Ballesta]]></description>
-        <styleUrl>#line-0288D1-6038</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2905333,42.2988806,0
-            3.2901149,42.2980902,0
-            3.2890849,42.2974236,0
-            3.2885716,42.2973481,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Run 5- 440m</name>
-        <description><![CDATA[Platja d'en Ballesta ENERGY 1 - Platja de Sant Antoni]]></description>
-        <styleUrl>#line-F57C00-6813</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2884716,42.2973375,0
-            3.2882632,42.2974209,0
-            3.2882203,42.2964686,0
-            3.2882203,42.295929,0
-            3.2883455,42.2956233,0
-            3.2886996,42.2948496,0
-            3.2889498,42.2943021,0
-            3.289143,42.2942307,0
-            3.2893111,42.294177,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Run 6 - 500m</name>
-        <styleUrl>#line-F57C00-6038-nodesc</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2941008,42.2927131,0
-            3.2941759,42.2926337,0
-            3.2942188,42.2925424,0
-            3.2942671,42.2924274,0
-            3.2943261,42.2923916,0
-            3.2944602,42.292471,0
-            3.2945621,42.2926337,0
-            3.2946426,42.292717,0
-            3.2947874,42.2927766,0
-            3.2949215,42.292844,0
-            3.2951844,42.2928123,0
-            3.2952756,42.2927766,0
-            3.2953882,42.2927091,0
-            3.295635,42.2925186,0
-            3.2956565,42.2924591,0
-            3.2957476,42.2924075,0
-            3.29593,42.2923401,0
-            3.2960588,42.2922448,0
-            3.29615,42.2921377,0
-            3.2962787,42.291979,0
-            3.2962787,42.291844,0
-            3.2963216,42.2917528,0
-            3.2963538,42.2916774,0
-            3.2963646,42.2915663,0
-            3.2963699,42.2914948,0
-            3.29615,42.2914591,0
-            3.2960266,42.2914948,0
-            3.2958496,42.2914909,0
-            3.2958174,42.2914353,0
-            3.2957691,42.2913401,0
-            3.2957691,42.2911972,0
-            3.2957208,42.2911417,0
-            3.2955921,42.2911139,0
-            3.2954472,42.2911099,0
-            3.295297,42.2910861,0
-            3.2951146,42.290971,0
-            3.2948786,42.2909194,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Swim 7 - 140m</name>
+        <name>Swim 3 - 140m</name>
         <description><![CDATA[Platja de S'Illa - Platja d'en Pep Ton]]></description>
         <styleUrl>#line-0288D1-7200</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            3.2948438,42.2909244,0
+            3.2947687,42.2910652,0
             3.2933438,42.2906233,0
           </coordinates>
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Run 7 - 1.150m</name>
+        <name>Swim 2+3B - 720m</name>
+        <styleUrl>#line-FF5252-6813-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            3.2859986,42.2936056,0
+            3.2861206,42.2933963,0
+            3.2861233,42.293311,0
+            3.2861662,42.2932416,0
+            3.2862628,42.293188,0
+            3.2864425,42.293065,0
+            3.2864639,42.2929896,0
+            3.2864934,42.2928606,0
+            3.2866007,42.2925868,0
+            3.2867938,42.2923329,0
+            3.2869065,42.2922059,0
+            3.286987,42.2920611,0
+            3.2869843,42.2919678,0
+            3.2870755,42.2919261,0
+            3.2873035,42.2918765,0
+            3.2875797,42.2918289,0
+            3.2877675,42.2917337,0
+            3.2878748,42.2916781,0
+            3.288312,42.2914381,0
+            3.2887358,42.2912218,0
+            3.2888457,42.2910214,0
+            3.2891676,42.2909162,0
+            3.2893902,42.290569,0
+            3.2896906,42.2904162,0
+            3.2898569,42.2902992,0
+            3.2900688,42.2901206,0
+            3.2902512,42.2899142,0
+            3.2905811,42.2895551,0
+            3.2906723,42.2894618,0
+            3.2910666,42.28944,0
+            3.2914314,42.2893884,0
+            3.2915896,42.2894122,0
+            3.2917157,42.2894499,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Run 3 - 1.150m</name>
         <description><![CDATA[Platja d'en Pep Ton - Platja de Caials]]></description>
         <styleUrl>#line-F57C00-6425</styleUrl>
         <LineString>
@@ -1959,7 +1583,7 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Swim 8 - 500m</name>
+        <name>Swim 4 - 500m</name>
         <description><![CDATA[Paltja de Caials - Racó d'en Senés]]></description>
         <styleUrl>#line-0288D1-7200</styleUrl>
         <LineString>
@@ -1981,7 +1605,28 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Run 8 - 1.050m</name>
+        <name>Swim 4B - 290m</name>
+        <styleUrl>#line-FF5252-7006-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            3.2956115,42.2859129,0
+            3.295295,42.2856152,0
+            3.2951609,42.2854962,0
+            3.2954667,42.2852184,0
+            3.2957295,42.2849644,0
+            3.2959227,42.2846588,0
+            3.2959119,42.2845119,0
+            3.2955096,42.2843453,0
+            3.2953272,42.2843611,0
+            3.2951824,42.2844921,0
+            3.2949463,42.2844842,0
+            3.2948744,42.2844226,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Run 4 - 1.050m</name>
         <description><![CDATA[Racó d'en Senés - Platja d'en Ros]]></description>
         <styleUrl>#line-F57C00-6813</styleUrl>
         <LineString>
@@ -2049,7 +1694,7 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Swim 9 - 190m</name>
+        <name>Swim 5 - 190m</name>
         <description><![CDATA[Platja d'en Ros - Platja de Ses Oliveres]]></description>
         <styleUrl>#line-0288D1-7006</styleUrl>
         <LineString>
@@ -2062,7 +1707,25 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Run 9 - 610m</name>
+        <name>Swim 5B - 230m</name>
+        <styleUrl>#line-FF5252-7200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            3.2880321,42.2847183,0
+            3.2877442,42.2850041,0
+            3.2874438,42.2852263,0
+            3.2870843,42.2854843,0
+            3.286682,42.2856708,0
+            3.286446,42.2858494,0
+            3.286328,42.2859922,0
+            3.2861509,42.2860994,0
+            3.2859685,42.2861321,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Run 5 - 610m</name>
         <description>Platja de Ses Oliveres - Platja Es Pianc</description>
         <styleUrl>#line-F57C00-6619</styleUrl>
         <LineString>
@@ -2101,7 +1764,7 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Swim 10 - 130m</name>
+        <name>Swim 6 - 130m</name>
         <description>Platja Es Pianc - Platja Es Poal</description>
         <styleUrl>#line-0288D1-6619</styleUrl>
         <LineString>
@@ -2119,7 +1782,24 @@
         </LineString>
       </Placemark>
       <Placemark>
-        <name>Run 10 - 300m</name>
+        <name>Swim 6B - 140m</name>
+        <styleUrl>#line-FF5252-7200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            3.2817628,42.2877691,0
+            3.2814917,42.2878694,0
+            3.2811215,42.2879925,0
+            3.2809552,42.288183,0
+            3.2809177,42.2882465,0
+            3.280966,42.2884885,0
+            3.2809767,42.2886354,0
+            3.2809016,42.288675,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Run 6 - 300m</name>
         <description>Platja Es Poal - Passeig de Cadaqués</description>
         <styleUrl>#line-F57C00-6813</styleUrl>
         <LineString>
@@ -2150,79 +1830,57 @@
         <styleUrl>#icon-1578-9C27B0-nodesc</styleUrl>
         <Point>
           <coordinates>
-            3.2889186,42.2943195,0
+            3.2910215,42.2828905,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>B</name>
-        <styleUrl>#line-FF5252-6813-nodesc</styleUrl>
+        <name>Run 2 - 500m</name>
+        <description><![CDATA[Massabous - Platja de D'Illa]]></description>
+        <styleUrl>#line-F57C00-6813</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            3.2888686,42.2941858,0
-            3.2875382,42.2943921,0
-            3.2868301,42.2940429,0
-            3.2861649,42.293535,0
-            3.2864224,42.2930429,0
-            3.286637,42.2925191,0
-            3.2870661,42.2919319,0
-            3.2886111,42.2912811,0
-            3.2892763,42.290662,0
-            3.2902204,42.2900271,0
-            3.2906066,42.2895668,0
-            3.2912718,42.289408,0
-            3.2916647,42.2895399,0
+            3.2940801,42.2927485,0
+            3.2941284,42.292691,0
+            3.2941364,42.2926443,0
+            3.2941646,42.2926116,0
+            3.2942176,42.292563,0
+            3.2942987,42.2925472,0
+            3.2943255,42.292565,0
+            3.294406,42.2925858,0
+            3.2944422,42.2926324,0
+            3.2945643,42.2926791,0
+            3.294709,42.2927337,0
+            3.294815,42.2927991,0
+            3.2948848,42.2928666,0
+            3.295051,42.2928517,0
+            3.2951905,42.2928159,0
+            3.2953908,42.2927081,0
+            3.2955733,42.2926069,0
+            3.2956859,42.2925494,0
+            3.2956269,42.2925037,0
+            3.2956483,42.2924423,0
+            3.2958281,42.2923569,0
+            3.2959863,42.2922994,0
+            3.296099,42.2921605,0
+            3.2962653,42.2919303,0
+            3.2962599,42.2918093,0
+            3.2963484,42.2916804,0
+            3.2963162,42.291597,0
+            3.2961124,42.2915514,0
+            3.2959219,42.2915057,0
+            3.2957637,42.2914402,0
+            3.2957342,42.2912241,0
+            3.2956927,42.2911546,0
+            3.2955867,42.2911447,0
+            3.2954043,42.2911149,0
+            3.2953292,42.2910196,0
+            3.2951495,42.2909402,0
+            3.2948062,42.2910593,0
           </coordinates>
         </LineString>
       </Placemark>
-      <Placemark>
-        <name>B</name>
-        <styleUrl>#line-FF5252-6813-nodesc</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2955419,42.2857967,0
-            3.29522,42.2855189,0
-            3.2959389,42.2846061,0
-            3.2955419,42.2843125,0
-            3.2952522,42.2843918,0
-            3.2950698,42.284376,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>B</name>
-        <styleUrl>#line-FF5252-7975-nodesc</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2880321,42.2847183,0
-            3.2875001,42.2851537,0
-            3.2869037,42.2855574,0
-            3.2862385,42.2859781,0
-            3.2859685,42.2861321,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>B</name>
-        <styleUrl>#line-FF5252-7394-nodesc</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            3.2816198,42.2878115,0
-            3.281196,42.2879504,0
-            3.2809331,42.2881568,0
-            3.2808956,42.2883195,0
-            3.2809653,42.2886409,0
-            3.2808997,42.2886989,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>Capa sin nombre</name>
     </Folder>
   </Document>
 </kml>
