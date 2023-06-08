@@ -434,7 +434,7 @@
                     "highlight": "#line-0F9D58-6038-highlight"
                 },
                 "description": "Aiguablava",
-                "stroke": "#0f9d58",
+                "stroke": "#C8C8C8",
                 "stroke-opacity": 1,
                 "stroke-width": 6.038
             }
@@ -515,7 +515,7 @@
                     "highlight": "#line-FFD600-5263-highlight"
                 },
                 "description": "Sa Tuna - Sa Riera",
-                "stroke": "#ffd600",
+                "stroke": "#FFFFFF",
                 "stroke-opacity": 1,
                 "stroke-width": 5.263
             }
@@ -586,7 +586,7 @@
                     "highlight": "#line-FFFFFF-6813-highlight"
                 },
                 "description": "Platja de Pals",
-                "stroke": "#ffffff",
+                "stroke": "#0f9d58",
                 "stroke-opacity": 1,
                 "stroke-width": 6.813
             }
