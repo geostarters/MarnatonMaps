@@ -430,11 +430,11 @@
                 "styleUrl": "#line-0F9D58-6038",
                 "styleHash": "6dbc8dc4",
                 "styleMapHash": {
-                    "normal": "#line-C8C8C8-6038-normal",
-                    "highlight": "#line-C8C8C8-6038-highlight"
+                    "normal": "#line-ACACAC-6038-normal",
+                    "highlight": "#line-ACACAC-6038-highlight"
                 },
                 "description": "Aiguablava",
-                "stroke": "#C8C8C8",
+                "stroke": "#ACACAC",
                 "stroke-opacity": 1,
                 "stroke-width": 6.038
             }
