@@ -511,8 +511,8 @@
                 "styleUrl": "#line-FFD600-5263",
                 "styleHash": "23bb35e2",
                 "styleMapHash": {
-                    "normal": "#line-FFD600-5263-normal",
-                    "highlight": "#line-FFD600-5263-highlight"
+                    "normal": "#line-FFFFFF-5263-normal",
+                    "highlight": "#line-FFFFFF-5263-highlight"
                 },
                 "description": "Sa Tuna - Sa Riera",
                 "stroke": "#FFFFFF",
@@ -582,8 +582,8 @@
                 "styleUrl": "#line-FFFFFF-6813",
                 "styleHash": "-548cca9c",
                 "styleMapHash": {
-                    "normal": "#line-FFFFFF-6813-normal",
-                    "highlight": "#line-FFFFFF-6813-highlight"
+                    "normal": "#line-0f9d58-6813-normal",
+                    "highlight": "#line-0f9d58-6813-highlight"
                 },
                 "description": "Platja de Pals",
                 "stroke": "#0f9d58",
